@@ -18,4 +18,5 @@ public class GuideController {
     public List<Guide> findGuides(@RequestParam String region, @RequestParam Integer travelerUserId) {
         return guideService.findGuidesByRegionAndTitle(region, travelerUserId);
     }
+
 }
